@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h2{
+    color: #086097;
+}
+
+div{ 
+    height: 1;
+    border-left: 10px solid #e0c94c;
+    background-color: #fffaef;
+    padding: 10px;
+
+}
+p{
+    margin: center;
+    padding: auto;
+    margin-left: 10px;
+}

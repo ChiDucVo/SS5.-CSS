@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    max-width: 900px;
+    margin: auto;
+}
+
+
+img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.content h2 {
+    color: #333;
+    margin: 0px;
+    font-size: 22px;
+}
+
+.content h2 span {
+    font-weight: bold;
+}
+
+.content p{
+    color: #666;
+    margin: 10px 0;
+}
+
+.container:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+    transition: 0.03s;
+}
+
+
+
+
+
+
+
+
+
+
+

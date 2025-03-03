@@ -1,0 +1,15 @@
+h1 {
+    color: aliceblue;
+    font-style: inherit;
+}
+
+fieldset{
+    background-color: black;
+}
+
+p {
+    color: green;
+    font-size: xx-large;
+    text-decoration: underline dotted greenyellow
+
+}

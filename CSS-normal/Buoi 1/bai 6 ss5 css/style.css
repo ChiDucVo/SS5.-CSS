@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  span{
+    background-color: #f5f4f4;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .center {
+      text-align: center; 
+      border: 3px solid green; 
+      padding: 20px; 
+      margin: 20px 0; 
+    }
+
+
+    div{
+      background-color: #e5e9ed;
+      padding: 5px;
+    }
+
+    .pre{
+        background-color: #f5f4f4;
+        
+    }
+
+    .center:hover {
+        background-color: lightgreen; /* Hiệu ứng hover đổi màu nền */
+        color: white; /* Đổi màu chữ */
+        transition: 0.5s; /* Tạo hiệu ứng mượt mà */
+      }
+
+    .a1{
+        background-color: white;
+        border-left: solid green 5px;
+
+        margin-left: 10px
+    }
+
+    .red{
+        color: red;
+    }
+    
+    .blue{
+        color: blue;
+    }
+    
+    .brown{
+        color: brown;
+       
+    }
+
+   
