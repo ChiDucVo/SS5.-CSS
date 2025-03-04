@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+
+}
+  
+  h2 {
+    font-size: 20px;
+    color: #2D2D5B;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 10px;
+  }
+  
+
+ .container{
+    display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px 20px;
+            padding-top: 10px;
+ }
+
+ 
+ 
