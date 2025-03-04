@@ -1,0 +1,63 @@
+.container{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+p{
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li a{
+    text-decoration: none;color: white;
+}
+
+.content{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    height: 230px;
+}
+
+.content p{
+    color: black
+}
+
+.content button{
+    background-color: green;
+    color: white;
+}
+
+.buttom {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: white;
+}
+
+.button-style {
+    padding: 20px;
+    background-color: #D6D6D6;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.buttom .button-style:hover{
+    background-color: red;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+

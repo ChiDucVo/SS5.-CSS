@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+.html {
+    font-family: Arial, sans-serif;
+}
+
+.A{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    list-style: none;
+}
+.item a{
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.item li{
+    margin: 10px;
+}
+
+.B{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.B img{
+    border-radius: 50%;
+    height: 150px;
+}
+
+.B .title{
+    margin: 10px;
+}
+
+.C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+

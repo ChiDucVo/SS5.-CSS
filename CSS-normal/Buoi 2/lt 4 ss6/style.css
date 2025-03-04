@@ -1,0 +1,46 @@
+table{
+    background-color: green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+}
+
+td a{
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar{
+    background-color: burlywood;
+    color: antiquewhite;
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.content{
+    flex: 3;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rebeccapurple;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
