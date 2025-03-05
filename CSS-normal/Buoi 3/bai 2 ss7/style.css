@@ -1,0 +1,27 @@
+.box{
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    background-color:aliceblue ;
+    color:#BC2229;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(149, 152, 155);
+    line-height: 30px;
+}
+p{
+    color: black;
+    font-size: 17px;
+}
+h2{
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+
+td:hover {
+    transform: scale(1.05);
+    background-color: red;
+    border: solid yellow;
+    
+}
