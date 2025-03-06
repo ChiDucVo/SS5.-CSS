@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <button onclick="openModal()">Open Modal</button>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    New message to @mdo
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <label>Recipient:</label>
+                    <input type="email" value="@mdo" disabled>
+                    <br><br>
+                    <label>Message:</label>
+                    <textarea rows="4"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button class="close" onclick="closeModal()">Close</button>
+                    <button class="send">Send message</button>
+                </div>
+            </div>
+        </div>
+        <script>
+            function openModal() {
+                document.getElementById("modal").style.display = "flex";
+            }
+            function closeModal() {
+                document.getElementById("modal").style.display = "none";
+            }
+        </script>
+</body>
+</html>
