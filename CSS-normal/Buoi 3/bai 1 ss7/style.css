@@ -12,6 +12,7 @@ body {
     color: #12004f;
     text-align: left;
     display: flex;
+    
     justify-content: left;
     align-items: center;
     height: 400px;
@@ -31,6 +32,7 @@ body {
 .button{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .button-style{

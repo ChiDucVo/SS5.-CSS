@@ -31,21 +31,5 @@
         </div>
     </div>
 </div>
-
-<script>
-    const headers = document.querySelectorAll('.accordion-header');
-
-    headers.forEach(header => {
-        header.addEventListener('click', () => {
-            header.classList.toggle('active');
-            const body = header.nextElementSibling;
-            if (header.classList.contains('active')) {
-                body.style.display = 'block';
-            } else {
-                body.style.display = 'none';
-            }
-        });
-    });
-</script>
 </body>
 </html>

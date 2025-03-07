@@ -1,39 +1,51 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5fa;
-    padding: 30px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
 }
+
 .accordion {
-    width: 600px;
-    margin: auto;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+    width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .accordion-item {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
 }
+
 .accordion-header {
     padding: 15px;
-    background: #f0f0f5;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
-    position: relative;
+    transition: background 0,3s;
 }
+
 .accordion-header:hover {
-    background: #e0e0ee;
+    background: #f1f1f1;
 }
-.accordion-header::after {
-    content: '\25BC'; /* Mũi tên xuống */
-    position: absolute;
-    right: 20px;
-    transition: transform 0.3s;
-}
-.accordion-header.active::after {
-    transform: rotate(180deg);
-}
+
 .accordion-body {
-    padding: 15px;
+    max-height: 0;
+    overflow: hidden;
     background: #f9f9f9;
-    display: none;
+    padding: 0 15px;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ddd;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+}
+
+.accordion-item:hover .accordion-body {
+    max-height: 150px;
+    padding: 15px;
 }
 
 .accordion-body span{
