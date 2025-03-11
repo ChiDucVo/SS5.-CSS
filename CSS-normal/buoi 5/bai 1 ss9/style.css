@@ -1,0 +1,22 @@
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid black;
+    margin: 50px auto; 
+}
+
+.box {
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}

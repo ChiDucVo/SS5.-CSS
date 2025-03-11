@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #F1F1F1;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item div{
+    background-color: #2ECC71;
+    width: 100%;
+    padding: 50px 150px ;
+    margin: 5px;
+    border-radius: 10px;
+}
