@@ -1,0 +1,10 @@
+body {
+    padding: 20px;
+  }
+  .form-select {
+    background-color: #ff6347; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
